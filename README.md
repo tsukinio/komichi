@@ -1,4 +1,4 @@
-# komichi
+# komichi.neocities.org
 - hello i am the owner tsukinio! i am learning how to deploy stuff to neocities 
 - i am also learning web accessibility too!!
 - this website's code is not F2U but u could still review my code!
