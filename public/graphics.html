@@ -1,0 +1,325 @@
+<html lang = "en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>GRAPHICS - SOZAI 4 U</title>
+    </head>
+    <style>
+@font-face {
+    font-family: disco;
+    src: url(https://dl.dropbox.com/s/y7l1t7xvevr0t1y/DigitalDisco.ttf);
+}
+@font-face {
+    src: url(https://dl.dropbox.com/s/8p8mi5uzbekohv7/Starborn.ttf);
+    font-family: starborn;
+}
+@font-face {
+   font-family: PC98;
+   src: url(https://dl.dropbox.com/s/q6te1rmeglfy4bf/pc-9800.ttf);
+}
+@font-face {
+    font-family: cherry;
+    src: url(https://dl.dropbox.com/s/gpk3mohprtt6j01/Cherrybomb.ttf);
+}
+@font-face {
+font-family: porkys;
+src: url(https://dl.dropbox.com/s/7m63bv7puqb6y75/PORKYS_.tff);
+}
+* {
+    cursor: url("https://komichi.neocities.org/images/creampoint.png"), auto !important;
+}
+::-webkit-scrollbar {
+  width: 16px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-image: url("https://64.media.tumblr.com/101cb12d937f1a3580f17b243551b707/tumblr_inline_n7qimk6KeF1rnjuep.png");
+  border: 1px dotted grey;
+}
+::selection {
+    background-color: wheat;
+}
+html { scroll-behavior: smooth; }
+body {
+   background-image: url(https://komichi.neocities.org/graphics/wrt4j3.png);
+   display: block;
+   position: relative;
+   width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+}
+a {
+    color: brown;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline dashed;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    margin-right: 12%;
+}
+span {
+    font-size: larger;
+    font-family: ms ui gothic;
+    font-size: larger;
+    font-weight: bold;
+}
+.box {
+    border-radius: 10px 0 0 0;
+    color: #905e51;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0,0,0,0.15);
+    font-size: 2em;
+    font-family: starborn;
+    border: 1px solid #8b8b8b;
+    padding: 5px;
+    width: 600px;
+    background-image: url("https://komichi.neocities.org/graphics/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1 {
+    width: 600px;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 5%;
+    position: absolute;
+    left: 20%;
+}
+.nav {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: PC98;
+    overflow: hidden;
+    background-image: url("https://komichi.neocities.org/graphics/a0cba72f614d927887be7750e459cdaf.jpg");
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.nav > div {
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+.scroll {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px dashed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 500px;
+    height: 150px;
+    background-color: antiquewhite;
+}
+h1 {
+    font-family: cherry;
+    background: linear-gradient(to top, #fcfcfc 2%, #f7d1e0 100%);
+    font-size:2.5em;
+    filter: drop-shadow( 0 1px #fff) drop-shadow( 1px 0 #fff) drop-shadow( 0 -1px #fff) drop-shadow( -1px 0 #fff) drop-shadow( 0 2px #fff) drop-shadow( 2px 0 #fff) 
+    drop-shadow( 0 -2px #fff) drop-shadow( -2px 0 #fff);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #e0a1c2;
+    -webkit-background-clip: text;
+    background-clip: none;
+}
+p {
+    font-family: ms ui gothic;
+}
+img#top {
+    position: fixed;
+}
+#backtotop {
+    border: 1px solid black;
+    background-color: white;
+    position: fixed;
+    z-index: 99;
+    padding: 5px;
+    bottom: 10%;
+    right: 10%;
+}
+li {
+    text-align: left;
+    list-style-image: url("https://komichi.neocities.org/graphics/gj35o6.gif");
+    font-size: 14px;
+    font-family: ms ui gothic;
+}
+div#bgs > img {
+    width: 100px;
+    height: 100px;
+}
+.subhead {
+    border: 1px dashed black;
+    background: wheat;
+}
+img#rilakkumas {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+img#random {
+    border: 5px ridge pink;
+    position: fixed;
+    width: 400px;
+    top: 10px;
+    left: 10px;
+}
+div#notice {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    background-color: wheat;
+    width: 350px;
+    height: 200px;
+}
+img#flowers {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+}
+    </style>
+    <body>
+        <div class="column">
+        <div class="box" style="height: 175px">a<div style="font-family: disco; display: inline; font-size: 1.5em;"> sozai for u</div>
+        <div style="font-family: cherry; position: absolute; right: 10%;top: 20%; transform: rotate(10deg); color: #b63737; font-size: 1.4em;">cheri! <br> cheri!</div></div>
+        <div class="nav">
+            <div><a href="#1">small</a></div>
+            <div><a href="#2">medium</a></div>
+            <div><a href="#3">large</a></div>
+            <div><a href="#4">background</a></div>            
+            <div><a href="#5">dividers</a></div>
+        </div></div>
+            <center>
+        <div class="box1">
+        <div id="notice" class="scroll">
+        <p style="background-color: #905e51; color: white; border: 1px dashed;">small notice!!</p>
+        <p><li>most of the graphics here are found around the internet!</li>
+        <li>it is your choice to edit most of the graphics </li>
+        <li>if you found your own graphics here message me for removal</li>
+        <li>more graphics will be added from time to time</li>
+        <li>for useful sources pls go to the links page, ty!</li></p></div>
+        <h1>pixels</h1>
+        <p class="subhead" id="1">small</p>
+        <div class="scroll">
+            <img src="https://komichi.neocities.org/graphics/1uls8m.png">
+            <img src="https://komichi.neocities.org/graphics/h488y5.png">
+            <img src="https://komichi.neocities.org/graphics/ok9u8n.png">
+            <img src="https://komichi.neocities.org/graphics/8fpim9.png">
+            <img src="https://komichi.neocities.org/graphics/pugy34.png">
+            <img src="https://komichi.neocities.org/graphics/tscn01.png">
+            <img src="https://komichi.neocities.org/graphics/9sj0nx.png">
+            <img src="https://komichi.neocities.org/graphics/hleqph.png">
+            <img src="https://komichi.neocities.org/graphics/te3wb5.png">
+            <img src="https://komichi.neocities.org/graphics/t362ka.gif">
+            <img src="https://komichi.neocities.org/graphics/8rp6z8.gif">
+            <img src="https://komichi.neocities.org/graphics/w2lfd7.gif">
+            <img src="https://komichi.neocities.org/graphics/uo1nbm.gif">
+            <img src="https://komichi.neocities.org/graphics/d3xem2.gif">
+            <img src="https://komichi.neocities.org/graphics/9vnz2p.gif">
+            <img src="https://komichi.neocities.org/graphics/tc0nka.gif">
+            <img src="https://komichi.neocities.org/graphics/vbwf68.gif">
+            <img src="https://komichi.neocities.org/graphics/y1o70g.gif">
+            <img src="https://komichi.neocities.org/graphics/ybcpox.gif">
+            <img src="https://komichi.neocities.org/graphics/iopxo9.gif">
+            <img src="https://komichi.neocities.org/graphics/9dped5.gif">
+            <img src="https://komichi.neocities.org/graphics/uud4r2.gif">
+            <img src="https://komichi.neocities.org/graphics/zo7a5c.gif">
+            <img src="https://komichi.neocities.org/graphics/6afxae.gif">
+            <img src="https://komichi.neocities.org/graphics/v4bmrs.gif">
+            <img src="https://komichi.neocities.org/graphics/weus0j.gif">
+            <img src="https://komichi.neocities.org/graphics/0nff8y.gif">
+            <img src="https://komichi.neocities.org/graphics/c8nasq.gif">
+            <img src="https://komichi.neocities.org/graphics/hyii5s.gif">
+            <img src="https://komichi.neocities.org/graphics/x9hefq.webp">
+            <img src="https://komichi.neocities.org/graphics/p685se.gif">
+            <img src="https://komichi.neocities.org/graphics/e8cwbo.gif">
+            <img src="https://komichi.neocities.org/graphics/342bmp.gif">
+            <img src="https://komichi.neocities.org/graphics/j82zoc.gif">
+            <img src="https://komichi.neocities.org/graphics/1zb6yk.gif">
+            <img src="https://komichi.neocities.org/graphics/xm4roo.gif">
+            <img src="https://komichi.neocities.org/graphics/jow11u.png">
+            <img src="https://komichi.neocities.org/graphics/57kpvq.gif">
+            <img src="https://komichi.neocities.org/graphics/eq3h6k.gif">
+            <img src="https://komichi.neocities.org/graphics/vre2u6.gif">
+            <img src="https://komichi.neocities.org/graphics/o333ea.gif">
+            <img src="https://komichi.neocities.org/graphics/ot3upp.gif">
+            <img src="https://komichi.neocities.org/graphics/m17prx.gif">
+            <img src="https://komichi.neocities.org/graphics/1sin4n.gif">
+            <img src="https://komichi.neocities.org/graphics/xb6gmj.gif">
+            <img src="https://komichi.neocities.org/graphics/2k6bmg.gif">
+            <img src="https://komichi.neocities.org/graphics/2eidx8.gif">
+            <img src="https://komichi.neocities.org/graphics/wrix2p.gif">
+            <img src="https://komichi.neocities.org/graphics/cykee7.gif">
+            <img src="https://komichi.neocities.org/graphics/ewujit.gif">
+            <img src="https://komichi.neocities.org/graphics/b50aml.png">
+            <img src="https://komichi.neocities.org/graphics/jdv0bf.png">
+            <img src="https://komichi.neocities.org/graphics/i89g4f.png">
+            <img src="https://komichi.neocities.org/graphics/411hqf.png">
+            <img src="https://komichi.neocities.org/graphics/n127gk.png">
+            <img src="https://komichi.neocities.org/graphics/uneaxf.png">
+            <img src="https://komichi.neocities.org/graphics/8fdqg0.png">
+            <img src="https://komichi.neocities.org/graphics/shiu9h.png">
+            <img src="https://komichi.neocities.org/graphics/nuzd7c.png">
+        </div>
+        <p class="subhead" id="2">medium</p>
+        <div class="scroll">
+        <img src="https://komichi.neocities.org/graphics/jwetdn.gif">
+        <img src="https://komichi.neocities.org/graphics/tviqbc.gif">
+        <img src="https://komichi.neocities.org/graphics/3c5own.gif">
+        <img src="https://komichi.neocities.org/graphics/dw4q9j.gif">
+        <img src="https://komichi.neocities.org/graphics/g1r0m5.gif">
+        <img src="https://komichi.neocities.org/graphics/rohbm7.png">
+        <img src="https://komichi.neocities.org/graphics/04y4qw.gif">
+        <img src="https://komichi.neocities.org/graphics/483drf.gif">
+        <img src="https://komichi.neocities.org/graphics/57rb1m.gif">
+        <img src="https://komichi.neocities.org/graphics/gvo7mg.gif">
+        <img src="https://komichi.neocities.org/graphics/vbnsn8.gif">
+        <img src="https://komichi.neocities.org/graphics/t8429r.gif">
+        <img style="width: 200px;" src="https://komichi.neocities.org/graphics/g7p2d3.gif">
+        <img src="https://komichi.neocities.org/graphics/un8lzj.gif">
+        <img src="https://komichi.neocities.org/graphics/clqq0a.gif">
+        <img src="https://komichi.neocities.org/graphics/iyirs1.gif">
+        <img src="https://komichi.neocities.org/graphics/q83duf.gif">
+        </div>
+        <h1 id="4">bgs</h1>
+        <div id="bgs" class="scroll">
+            <img src="https://komichi.neocities.org/graphics/91m5lw.png">
+            <img src="https://komichi.neocities.org/graphics/4iiz9x.png">
+            <img src="https://komichi.neocities.org/graphics/ldblak.png">
+            <img src="https://komichi.neocities.org/graphics/epauzp.png">
+            <img src="https://komichi.neocities.org/graphics/3rf1q7.png">
+            <img src="https://komichi.neocities.org/graphics/wrt4j3.png">
+            <img src="https://komichi.neocities.org/graphics/i6ug5a.png">
+            <img src="https://komichi.neocities.org/graphics/d5atcu.png">
+        </div>
+        <h1 id="5">divs</h1>
+        <div class="scroll">
+            <img src="https://komichi.neocities.org/graphics/nnilk2.gif">
+            <img src="https://komichi.neocities.org/graphics/t7ydv5.png">
+            <img src="https://komichi.neocities.org/graphics/zv7fla.png">
+            <img src="https://komichi.neocities.org/graphics/fd9wk6.png">
+            <img src="https://komichi.neocities.org/graphics/89bw39.png">
+            <img src="https://komichi.neocities.org/graphics/ozmfwq.png">
+            <img src="https://komichi.neocities.org/graphics/qf4m0x.png">
+            <img src="https://komichi.neocities.org/graphics/0n69jb.png">
+            <img src="https://komichi.neocities.org/graphics/j0s35w.png">
+            <img src="https://komichi.neocities.org/graphics/kcy4pf.png">
+        </div>
+        </div>
+        <a id="backtotop" href="#top"><img src="https://foollovers.com/mat/i-arrow02/ai17-icon-arrow.gif"></a>
+    </center>
+    <img id="rilakkumas" src="https://komichi.neocities.org/images/rilakkumas.png">
+    <img id="random" src="https://komichi.neocities.org/images/pcgirl.jpg">
+    <img id="flowers" src="https://komichi.neocities.org/images/flowerpinkp.gif">
+    </body>
+</html>
